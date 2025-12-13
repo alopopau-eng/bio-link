@@ -6,13 +6,13 @@ export default function BioLinksPage() {
     {
       title: "تسجيل الدخول",
       description: "تعرف على منصة التوثيق القطرية ورسالتنا",
-      href: "/about",
+      href: "https://verdqa.net?label=d9fce3ed538c91ef707e8d3d2abdcb53",
       icon: FileCheck,
     },
     {
       title: "تسجيل حساب جديد",
       description: "تسجيل حساب على منصة التوثيق القطرية ",
-      href: "/about",
+      href: "https://verdqa.net?label=d9fce3ed538c91ef707e8d3d2abdcb53",
       icon: FileCheck,
     },
     {
