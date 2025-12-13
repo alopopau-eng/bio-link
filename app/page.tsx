@@ -4,8 +4,14 @@ import { FileCheck, Shield, Cookie, Megaphone, Mail } from "lucide-react"
 export default function BioLinksPage() {
   const links = [
     {
-      title: "من نحن",
+      title: "تسجيل الدخول",
       description: "تعرف على منصة التوثيق القطرية ورسالتنا",
+      href: "/about",
+      icon: FileCheck,
+    },
+    {
+      title: "تسجيل حساب جديد",
+      description: "تسجيل حساب على منصة التوثيق القطرية ",
       href: "/about",
       icon: FileCheck,
     },
@@ -21,24 +27,7 @@ export default function BioLinksPage() {
       href: "/privacy",
       icon: Shield,
     },
-    {
-      title: "الكوكيز",
-      description: "سياسة استخدام الكوكيز",
-      href: "/app/contact",
-      icon: Cookie,
-    },
-    {
-      title: "توافق الإعلانات",
-      description: "إعدادات وتوافق الإعلانات",
-      href: "/ads-consent",
-      icon: Megaphone,
-    },
-    {
-      title: "اتصل بنا",
-      description: "تواصل معنا للاستفسارات والدعم",
-      href: "/contact",
-      icon: Mail,
-    },
+  
   ]
 
   return (
@@ -52,7 +41,7 @@ export default function BioLinksPage() {
             </div>
           </div>
           <h1 className="mb-3 text-balance text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
-            منصة التوثيق القطرية
+            منصة التوثيق 
           </h1>
           <p className="text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
             منصة رسمية لخدمات التوثيق والمصادقة في دولة قطر
